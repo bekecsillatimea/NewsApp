@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent">
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/news_image_view"
+            style="@style/newsImageViews"
+            android:contentDescription="@string/image_description"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/title_text_view"
+            style="@style/titleTextView"
+            app:layout_constraintBottom_toBottomOf="@+id/news_image_view"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:text="This is the title" />
+
+        <TextView
+            android:id="@+id/date_text_view"
+            style="@style/dateTextView"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/news_image_view"
+            tools:text="This is the date" />
+
+        <TextView
+            android:id="@+id/section_text_view"
+            style="@style/sectionTextView"
+            app:layout_constraintStart_toEndOf="@+id/date_text_view"
+            app:layout_constraintTop_toBottomOf="@+id/news_image_view"
+            tools:text="Section"/>
+
+        <TextView
+            android:id="@+id/author_text_view"
+            style="@style/authorTextView"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/date_text_view"
+            tools:text="Author name" />
+
+        <View
+            style="@style/viewStyle"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/author_text_view" />
+
+    </android.support.constraint.ConstraintLayout>
+</android.support.v7.widget.CardView>

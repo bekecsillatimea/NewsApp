@@ -1,0 +1,141 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="titleTextView">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginEnd">@dimen/titleTextMargins</item>
+        <item name="android:layout_marginStart">@dimen/titleTextMargins</item>
+        <item name="android:layout_marginTop">@dimen/titleTextMargins</item>
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:textSize">@dimen/titleTextSize</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:background">@android:color/darker_gray</item>
+        <item name="android:alpha">0.7</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="dateTextView">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">@dimen/dateTextMargins</item>
+        <item name="android:layout_marginStart">@dimen/dateTextMargins</item>
+        <item name="android:textSize">@dimen/dateTextSize</item>
+    </style>
+
+    <style name="sectionTextView">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">@dimen/sectionTextMargins</item>
+        <item name="android:layout_marginStart">@dimen/sectionTextMargins</item>
+        <item name="android:textSize">@dimen/sectionTextSize</item>
+        <item name="android:textColor">@color/colorPrimary</item>
+    </style>
+
+    <style name="authorTextView">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginStart">@dimen/authorTextMargins</item>
+        <item name="android:layout_marginBottom">@dimen/authorMarginBottom</item>
+        <item name="android:layout_marginEnd">@dimen/AuthorMarginEnd</item>
+        <item name="android:textSize">@dimen/authorTextSize</item>
+    </style>
+
+    <style name="newsImageViews">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/imageHeight</item>
+        <item name="android:layout_marginEnd">@dimen/imageMargins</item>
+        <item name="android:layout_marginStart">@dimen/imageMargins</item>
+        <item name="android:layout_marginTop">@dimen/imageMargins</item>
+        <item name="android:layout_marginBottom">@dimen/imageMargins</item>
+        <item name="android:adjustViewBounds">true</item>
+        <item name="android:cropToPadding">false</item>
+    </style>
+
+    <style name="viewStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/viewHeight</item>
+        <item name="android:background">@android:color/darker_gray</item>
+    </style>
+
+    <style name="drawerLayout">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:fitsSystemWindows">true</item>
+    </style>
+
+    <style name="toolbarStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">?attr/actionBarSize</item>
+        <item name="android:layout_alignParentTop">true</item>
+        <item name="android:background">@color/colorPrimary</item>
+    </style>
+
+    <style name="swipeRefreshLayout">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_below">@id/toolbar</item>
+    </style>
+
+    <style name="recycleViewStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <style name="emptyStateTextView">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_centerInParent">true</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="navigationView">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_gravity">start</item>
+        <item name="android:fitsSystemWindows">true</item>
+        <item name="android:background">@color/colorPrimary</item>
+    </style>
+
+    <style name="navHeaderImageView">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/NavHeaderImageViewHeight</item>
+        <item name="android:paddingTop">@dimen/navHeaderImageViewPaddingTop</item>
+    </style>
+
+    <style name="expandableListView">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_gravity">start</item>
+        <item name="android:divider">@color/expandableListDivider</item>
+        <item name="android:indicatorLeft">?android:attr/expandableListPreferredItemIndicatorLeft
+        </item>
+    </style>
+
+    <style name="listGroupTextView">
+        <item name="android:layout_height">@dimen/listGroupTextViewHeight</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:paddingTop">@dimen/listGroupTextPaddingTop</item>
+        <item name="android:paddingBottom">@dimen/listGroupTextPaddingBottom</item>
+        <item name="android:paddingStart">?android:attr/expandableListPreferredItemPaddingLeft</item>
+        <item name="android:textColor">@color/listGroupTextColor</item>
+    </style>
+
+    <style name="listItemTextView">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:padding">@dimen/listItemTextViewPadding</item>
+        <item name="android:textColor">@color/listItemTextColor</item>
+        <item name="android:paddingStart">?android:attr/expandableListPreferredChildPaddingLeft</item>
+        <item name="android:textStyle">italic</item>
+    </style>
+</resources>

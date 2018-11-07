@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="titleTextMargins">8dp</dimen>
+    <dimen name="titleTextSize">20sp</dimen>
+    <dimen name="dateTextMargins">8dp</dimen>
+    <dimen name="sectionTextMargins">8dp</dimen>
+    <dimen name="authorTextMargins">8dp</dimen>
+    <dimen name="imageHeight">210dp</dimen>
+    <dimen name="imageMargins">8dp</dimen>
+    <dimen name="NavHeaderImageViewHeight">180dp</dimen>
+    <dimen name="navHeaderImageViewPaddingTop">10dp</dimen>
+    <dimen name="dateTextSize">16sp</dimen>
+    <dimen name="sectionTextSize">16sp</dimen>
+    <dimen name="authorMarginBottom">8dp</dimen>
+    <dimen name="AuthorMarginEnd">8dp</dimen>
+    <dimen name="authorTextSize">16sp</dimen>
+    <dimen name="viewHeight">2dp</dimen>
+    <dimen name="listGroupTextViewHeight">0dp</dimen>
+    <dimen name="listGroupTextPaddingBottom">10dp</dimen>
+    <dimen name="listGroupTextPaddingTop">10dp</dimen>
+    <dimen name="listItemTextViewPadding">8dp</dimen>
+</resources>

@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="mainTopics">
+        <item>News</item>
+        <item>Opinion</item>
+        <item>Sport</item>
+        <item>Culture</item>
+        <item>Lifestyle</item>
+    </string-array>
+
+    <string-array name="newsSubTopics">
+        <item>News</item>
+        <item>World News</item>
+        <item>UK News</item>
+        <item>Australia News</item>
+        <item>Science</item>
+        <item>Cities</item>
+        <item>Global development</item>
+        <item>Technology</item>
+        <item>Business</item>
+        <item>Environment</item>
+        <item>Education</item>
+        <item>Society</item>
+    </string-array>
+
+    <string-array name="newsSubTopicsIds">
+        <item>news</item>
+        <item>world</item>
+        <item>uk-news</item>
+        <item>australia-news</item>
+        <item>science</item>
+        <item>cities</item>
+        <item>global-development</item>
+        <item>technology</item>
+        <item>business</item>
+        <item>environment</item>
+        <item>education</item>
+        <item>society</item>
+    </string-array>
+
+    <string-array name="opinionSubTopics">
+        <item>Opinion</item>
+        <item>From The Guardian</item>
+        <item>Crosswords</item>
+    </string-array>
+
+    <string-array name="opinionSubTopicsIds">
+        <item>commentisfree</item>
+        <item>theguardian</item>
+        <item>crosswords</item>
+    </string-array>
+
+    <string-array name="sportSubTopics">
+        <item>Sport</item>
+        <item>Football</item>
+    </string-array>
+
+    <string-array name="sportSubTopicsIds">
+        <item>sport</item>
+        <item>football</item>
+    </string-array>
+
+    <string-array name="cultureSubTopics">
+        <item>Culture</item>
+        <item>Books</item>
+        <item>Music</item>
+        <item>TV &amp; Radio</item>
+        <item>Art &amp; Design</item>
+        <item>Film</item>
+        <item>Games</item>
+        <item>Stage</item>
+    </string-array>
+
+    <string-array name="cultureSubTopicsIds">
+        <item>culture</item>
+        <item>books</item>
+        <item>music</item>
+        <item>tv-and-radio</item>
+        <item>artanddesign</item>
+        <item>film</item>
+        <item>games</item>
+        <item>stage</item>
+    </string-array>
+
+    <string-array name="lifestyleSubTopics">
+        <item>Lifestyle</item>
+        <item>Fashion</item>
+        <item>Travel</item>
+        <item>Money</item>
+    </string-array>
+
+    <string-array name="lifestyleSubTopicsIds">
+        <item>lifeandstyle</item>
+        <item>fashion</item>
+        <item>travel</item>
+        <item>money</item>
+    </string-array>
+
+    <string-array name="settings_order_by_labels">
+        <item>@string/settings_order_by_newest_label</item>
+        <item>@string/settings_order_by_oldest_label</item>
+        <item>@string/settings_order_by_relevance_label</item>
+    </string-array>
+
+    <string-array name="settings_order_by_values">
+        <item>@string/settings_order_by_newest_value</item>
+        <item>@string/settings_order_by_oldest_value</item>
+        <item>@string/settings_order_by_relevance_value</item>
+    </string-array>
+
+</resources>
